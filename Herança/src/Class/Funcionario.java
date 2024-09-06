@@ -45,7 +45,7 @@ public class Funcionario {
         }
 
         public double  salariototal(){
-           return  horasTrabalhada * ValorDaHora /100;
+           return  horasTrabalhada * ValorDaHora ;
             
         }
 

@@ -44,7 +44,7 @@ public class App {
            for(Funcionario emp : list){
 
             System.out.println(emp.getNome() + " - $ " + String.format("%.2f", emp.salariototal()));
-            // System.out.printf("%s %.2f \n", emp.getNome(), emp.salariototal());
+            
            }
 
 

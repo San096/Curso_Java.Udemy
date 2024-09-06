@@ -23,8 +23,8 @@ public class Tercerizado extends Funcionario {
 
     @Override
     public double salariototal(){
-        double salario = getHorasTrabalhada() * this.getValorDaHora();
-        return salario /100 * this.add + (salario);
+        
+        return super.salariototal() /100 * this.add + super.salariototal();
     }
     
 }
